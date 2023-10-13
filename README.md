@@ -1,5 +1,6 @@
-CS5330 Project 2 Content-based Image Retrieval
-Minghao Liu
+##CS5330 Project 2 Content-based Image Retrieval
+
+Hongchao Fang
 
 os win10
 ide vs studio
