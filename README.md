@@ -14,8 +14,13 @@ vidDisplay.exe (target img name) (source of database) (bin number) (matching met
 ```
 
 "baseline" req1 using center 9x9 for sum of difference sqr
+
 "single_histogram" req 2 using whole img and red and green channel only for histogram difference
+
 "multi_histogram"  req 3 using whole img and center 141x141 pixel 3 color channel for histogram difference
+
 "texture_matching" req 4 using whole img and magnituded img 3 color channel for histogram difference
+
 "custom_matching_1" req5 using whole img, magnituded img 3 color channel,center 200x200 pixel, and center red pixel only for histogram difference
+
 "custom_matching_2" req5 using whole img, magnituded img 3 color channel,center 200x200 pixel, and center green pixel for histogram difference
