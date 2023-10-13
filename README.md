@@ -10,7 +10,7 @@ vidDisplay.cpp: the mainfunction of the program, read img, read img in the direc
 
 If you want to redo the test, just run:
 ```
-imgDisplay.exe (target img name) (source of database) (bin number) (matching method) (top N closed img)
+vidDisplay.exe (target img name) (source of database) (bin number) (matching method) (top N closed img)
 ```
 
 "baseline" req1 using center 9x9 for sum of difference sqr
