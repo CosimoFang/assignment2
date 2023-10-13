@@ -1,22 +1,17 @@
-##CS5330 Project 2 Content-based Image Retrieval
+# Project 2 Content-based Image Retrieval
 
 Hongchao Fang
 
 os win10
 ide vs studio
 
-Khoury wiki:
-https://wiki.khoury.northeastern.edu/display/~mohsen/CS5330+PROJECT+2++Content-based+Image+Retrieval
-
 filter.h/filter.cpp include filtering and generate histogram and calulated difference.
 vidDisplay.cpp: the mainfunction of the program, read img, read img in the directory, sort and out put
 
-how to use:
-1 use cd to the dir and use cmd to run the exe file with command line input.
-cmd : (name of program).exe (target img name) (source of database) (bin number) (matching method) (top N closed img)
-
-you can also run exe withtout parameter to run the coded setup, this can be changed in vidDisplay.cpp line 78
-matching method:
+If you want to redo the test, just run:
+```
+imgDisplay.exe (target img name) (source of database) (bin number) (matching method) (top N closed img)
+```
 
 "baseline" req1 using center 9x9 for sum of difference sqr
 "single_histogram" req 2 using whole img and red and green channel only for histogram difference
